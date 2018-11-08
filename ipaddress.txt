@@ -25,3 +25,30 @@ wlan0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         TX packets 14791  bytes 12857379 (12.2 MiB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
+eth0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether b8:27:eb:13:1f:2e  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 52  bytes 2992 (2.9 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 52  bytes 2992 (2.9 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlan0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.0.32  netmask 255.255.255.0  broadcast 192.168.0.255
+        inet6 2605:6000:e98b:2600::c  prefixlen 128  scopeid 0x0<global>
+        inet6 2605:6000:e98b:2600:40a2:abc8:17ae:fa1b  prefixlen 64  scopeid 0x0<global>
+        inet6 fe80::8b3f:1468:fc17:5797  prefixlen 64  scopeid 0x20<link>
+        ether b8:27:eb:46:4a:7b  txqueuelen 1000  (Ethernet)
+        RX packets 11702  bytes 828419 (809.0 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 16144  bytes 14001021 (13.3 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
